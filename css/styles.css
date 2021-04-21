@@ -1,0 +1,237 @@
+body{
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 115%;
+}
+
+p{
+  line-height: 2;
+}
+
+a{
+  color: #40514E;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #EAF6F6;
+}
+
+hr{
+  border: dotted grey 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+h1{
+  color: #456268;
+  margin: 50px auto 0 auto ;
+  font-size: 5.625rem;
+  line-height: 2;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+
+h2{
+  color: #456268;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  padding-bottom: 10px;
+}
+
+h3{
+  color: #79a3b1;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 2;
+}
+
+/* Container Section */
+
+.top-container{
+  background-color: #d0e8f2;
+  position: relative;
+  height: 100%;
+}
+
+.middle-container{
+  margin: 100px 0;
+}
+
+.bottom-container{
+  background-color: #79A3B1;
+  padding: 50px 0 20px;
+  color:#456268;
+}
+
+/* NavBar Section */
+.navbar{
+  padding: 0 0 4.5rem;
+
+}
+
+.navbar-brand{
+font-family: 'Open Sans', sans-serif;
+font-size: 1.5rem;
+font-weight: 700;
+color: #456268;
+}
+
+.nav-item{
+  padding: 0;
+  color: #456268;
+}
+
+.nav-link{
+  font-size: 1rem;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+
+/* Home Page Section */
+
+.top-cloud{
+  position: absolute;
+  top: 100px;
+  right: 200px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 200px;
+  bottom: 300px;
+}
+
+/* About Me Section */
+
+.profile{
+  text-align: center;
+  position: relative;
+  width: 100%;
+}
+
+.intro{
+  width: 50%;
+  margin: auto;
+}
+
+.profile-pic{
+  padding-bottom: 20px;
+}
+
+/* Skill and Course Section */
+
+.skill-row{
+  width: 55%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.computer{
+  width: 25%;
+  margin-right: 35px;
+}
+
+.lang-icons{
+  padding: 0 20px 0 0;
+  margin: 10px;
+  font-size: 3rem;
+  color: black;
+}
+
+.book {
+  width: 50%;
+  margin-left: 80px;
+}
+
+.courses{
+  line-height: 1.5;
+}
+
+/* Projects Section */
+.projects{
+  width: 100%;
+  height: 1020px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.proj-title{
+  margin-bottom: 7%;
+}
+
+.projects .left-proj{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.projects .left-proj .proj-image{
+  margin-top: 30px;
+  width: 50%;
+  height: 100%;
+}
+
+.projects .right-proj{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+}
+
+.projects .right-proj .descriptions{
+  text-align: left;
+  margin-top: 10px;
+  width: 95%;
+  height: 20%;
+}
+
+
+/* Contact Info */
+
+.contact-message{
+  width: 23%;
+  margin: auto;
+}
+
+.mt-3{
+  margin-top: 30px;
+}
+
+.btn{
+  background-color: #79a3b1;
+  color: white;
+  padding: 10px 30px;
+  border-radius: 20px;
+  margin-top: 20px;
+  text-decoration: none;
+}
+
+.btn:hover{
+  background-color: #456268;
+}
+
+.copyright{
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
