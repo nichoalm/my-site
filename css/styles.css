@@ -24,7 +24,7 @@ hr{
   border: dotted grey 6px;
   border-bottom: none;
   width: 4%;
-  margin: 100px auto;
+  margin: 90px auto;
 }
 
 h1{
@@ -42,7 +42,7 @@ h2{
   font-family: 'Open Sans', sans-serif;
   font-weight: normal;
   font-size: 1.5rem;
-  line-height: 1.5;
+  line-height: 1.2;
   padding-bottom: 10px;
 }
 
@@ -131,7 +131,7 @@ color: #456268;
 
 .skill-row{
   width: 55%;
-  margin: 100px auto 100px auto;
+  margin: 75px auto 50px auto;
   text-align: left;
   display: flex;
   flex-direction: row;
@@ -149,6 +149,16 @@ color: #456268;
   margin: 10px;
   font-size: 3rem;
   color: black;
+}
+
+.dates{
+  font-size: 14px;
+  margin-top: -4px;
+}
+.eightsig {
+  width: 100%;
+  margin-left: 90px;
+  margin-right: 90px;
 }
 
 .book {
